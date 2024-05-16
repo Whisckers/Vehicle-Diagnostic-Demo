@@ -1,0 +1,66 @@
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      background-color: rgb(24, 133, 148);
+      border: 10px solid #2E8B57;
+      text-align: center;
+      font-size: 4em;
+      margin-bottom: 80px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 18px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"] {
+      width: 100%;
+      padding: 30px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+    }
+
+    fieldset {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    legend {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    button {
+      background-color: rgb(24, 133, 148);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: rgb(24, 133, 148);
+    }
+
+    body {
+      border: 10px solid rgb(24, 133, 148);
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 15px;
+      background-color: #f2f2f2;
+    }
+ 

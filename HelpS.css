@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarCheck - Help & Support</title>
+  <style>
+    body {
+      font-family: sans-serif;
+	   border: 10px solid #2E8B57; 
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      background-color: rgb(24, 133, 148);
+      border: 10px solid #2E8B57;
+      text-align: center;
+      font-size: 4em;
+      margin-bottom: 80px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 18px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea {
+      width: 100%;
+      padding: 30px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+    button {
+      background-color: rgb(24, 133, 148);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: rgb(24, 133, 148);
+    }
+
+    body {
+      border: 10px solid rgb(24, 133, 148);
+    }
+
+
+    label,
+    select {
+      margin-right: 40px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 10px;
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>CarCheck</h1>
+    <h2>Help & Support</h2>
+  </header>
+  <main>
+    <section class="support-options">
+      <h3>Need Help? We're Here for You!</h3>
+      <p>Whether you're a new user or have a question about a specific feature, we have resources to help you get the most out of CarCheck.</p>
+      <ul>
+        <li><a href="#faq">Frequently Asked Questions (FAQ)</a></li>
+        <li><a href="#knowledge-base">Search Our Knowledge Base</a></li>
+        <li><a href="#contact">Contact Support</a></li>
+      </ul>
+    </section>
+
+    <section class="faq" id="faq">
+      <h3>Frequently Asked Questions (FAQ)</h3>
+      <dl>
+        <dt>How do I connect my OBD-II scanner to CarCheck?</dt>
+        <dd>We provide step-by-step instructions on the <a href="connect.html">Connect Your Scanner</a> page. You'll need your scanner, a compatible device, and a Bluetooth or Wi-Fi connection.</dd>
+        <dt>What does a specific trouble code mean?</dt>
+        <dd>Search our knowledge base using the code or a keyword related to the issue you're facing. You can also access detailed explanations from the <a href="diagnosis.html">Diagnosis</a> page after connecting your scanner.</dd>
+        <dt>Can CarCheck fix my car?</dt>
+        <dd>CarCheck is a diagnostic tool that helps you understand car problems.
+		
+	

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+#engine{
+    background-color: rgb(24, 133, 148);
+    width: 65%;
+    height: 700px;
+    
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 70%;
+    top: 55%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    position: absolute;
+    left: 75%;
+    top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#mail{
+    position: absolute;
+    left: 70%;
+    top: 12%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#email{
+
+    position: absolute;
+    left: 70%;
+    top: 15%;
+    height: 25px;
+    width: 320px;
+
+}
+#pswd{
+    position: absolute;
+    left: 70%;
+    top: 21%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#password{
+
+    position: absolute;
+    left: 70%;
+    top: 24%;
+    height: 25px;
+    width: 320px;
+
+}
+.loginbtn{
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(24, 133, 148);
+    border-radius: 5px;
+}
+.loginbtn:hover{
+    background-color: rgb(21, 204, 228);
+}
+#txt{
+    position: absolute;
+    left: 70%;
+    top: 36%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#sign{
+    position: absolute;
+    left: 86%;
+    top: 36%;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(24, 133, 148);
+    border-radius: 5px;
+}
+#sign:hover{
+    background-color: rgb(21, 204, 228);
+}

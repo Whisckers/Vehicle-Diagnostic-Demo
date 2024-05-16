@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+  h1 {
+	
+	 background-color: rgb(24, 133, 148);  / Dark green color *
+	 border: 10px solid #2E8B57; 
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 80px;
+}
+
+label {
+    display: block;
+    margin-bottom: 18px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: rgb(24, 133, 148);;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(24, 133, 148);
+}
+body
+{
+	 border: 10px solid rgb(24, 133, 148); 
+}
+.watermark {
+  position: absolute;  /* Position the watermark element */
+  top: 55%;  /* Center vertically (adjust as needed) */
+  left: 50%;  /* Center horizontally (adjust as needed) */
+  transform: translate(-50%, -50%);  /* Center the element within its space */
+  opacity: 0.09; /* Adjust opacity for watermark visibility */
+  width: 60%; /* Adjust width as needed */
+  /* Optionally add a background color if using a text watermark */
+}
+
+.watermark img {
+  width: 100%; /* Stretch image to fill watermark container */
+}
+#make, #model, #type, #year {
+  display: inline-block;  /* Make form elements display inline */
+  width: 150px;  /* Adjust input width as needed */
+  margin-right: 10px;  /* Add some margin between inputs */
+}
+
+label, select {
+  margin-right: 10px;  /* Add some space between labels and dropdowns */
+}
+
+footer {
+  text-align: center;  /* Center the copyright text */
+  padding: 10px;  /* Add some padding for spacing */
+  font-size: 10px;
+  background-color: #f2f2f2;  /* Add a light background color (optional) */
+}
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engine-Dig - Diagnosis Report</title>
+   <link rel="stylesheet" href="history.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .important {
+      font-weight: bold;
+      color: red;
+    }
+  </style>
+  	   <a href="Dashboard.php"><button id="Dashboard">Dashboard</button></a>
+</head>
+
+<body>
+  <h1>Car Diagnosis Report</h1>
+
+  <section>
+    <h2>Vehicle Information</h2>
+    <table>
+      <tr>
+        <th>Make:</th>
+        <td>[Vehicle Make]</td>
+      </tr>
+      <tr>
+        <th>Model:</th>
+        <td>[Vehicle Model]</td>
+      </tr>
+      <tr>
+        <th>Year:</th>
+        <td>[Vehicle Year]</td>
+      </tr>
+      <tr>
+        <th>VIN:</th>
+        <td>[Vehicle Identification Number]</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Diagnostic Results</h2>
+    <p>This section will display the diagnostic trouble codes and faults retrieved along with their descriptions and potential causes.</p>
+    <table>
+      <tr>
+        <th>DTC Code</th>
+        <th>Description</th>
+        <th>Severity</th>
+      </tr>
+      <tr>
+        <td>[DTC Code 1]</td>
+        <td>[Description 1]</td>
+        <td class="important">[Severity 1 (e.g., High, Medium, Low)]</td>
+      </tr>
+      <tr>
+        <td>[DTC Code 2]</td>
+        <td>[Description 2]</td>
+        <td>[Severity 2]</td>
+      </tr>
+      </table>
+  </section>
+
+  <section>
+    <h2>Recommendations</h2>
+    <p>Based on the identified faults, this section will provide recommendations for
+      further inspection, repairs, or maintenance. It may also suggest consulting
+      a qualified mechanic.</p>
+    <ul>
+      <li>[Recommendation 1]</li>
+      <li>[Recommendation 2]</li>
+      </ul>
+  </section>
+    <footer>
+    <p>&copy; 2024 Engine-Dig. All rights reserved.</p>
+  </footer>
+  <p>**Disclaimer:** This report is for informational purposes only and should not be
+    considered a substitute for professional diagnosis by a qualified mechanic.</p>
+</body>
+
+</html>

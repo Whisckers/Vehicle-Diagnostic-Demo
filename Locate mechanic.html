@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engin-Dig - Find Nearest Auto Shop</title>
+  <script>
+    // Function to handle location access and search (replace with actual implementation)
+    function findNearestAutoShops() {
+      navigator.geolocation.getCurrentPosition(function(position) {
+        const latitude = position.coords.latitude;
+        const longitude = position.coords.longitude;
+
+        // Use an API (e.g., Google Maps Platform) to search for shops based on location
+        // ... (replace with API call and logic to retrieve auto shops)
+
+        // Update the HTML content with the list of shops (example)
+        const shopList = document.getElementById("shop-list");
+        shopList.innerHTML = "<h3>Nearest Auto Shops:</h3>";
+        // ... (add shop details dynamically based on API response)
+      });
+    }
+  </script>
+   <link rel="stylesheet" href="Locate.css
+ 
+   <style>
+    <!DOCTYPE html>
+<html lang="en">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engin-Dig - Settings</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+      border: 10px solid rgb(24, 133, 148);
+    }
+
+    h1 {
+      background-color: rgb(24, 133, 148);
+      border: 10px solid rgb(24, 133, 148);;
+      text-align: center;
+      font-size: 4em;
+      margin-bottom: 80px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 18px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+      width: 100%;
+      padding: 30px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+    button {
+      background-color: rgb(24, 133, 148);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: rgb(24, 133, 148);
+    }
+
+    .settings-container {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .settings-container h3 {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 10px;
+      background-color: #f2f2f2;
+    }
+  </style>
+	   <a href="dashboard.php"><button id="Dashboard">Dashboard</button></a>
+</head>
+
+<body>
+
+
+  <h1>Engin-Dig - Find Nearest Auto Shop</h1>
+  <button onclick="findNearestAutoShops()">Find Nearest Shops</button>
+  <div id="shop-list"></div>
+  
+      <footer>
+    <p>&copy; 2024 Engine-Dig. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
